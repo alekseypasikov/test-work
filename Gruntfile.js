@@ -59,7 +59,7 @@ module.exports = function(grunt) {
             prod: {
                 options: {
                     baseUrl: "js",
-                    mainConfigFile: "js/common/config/require.config.js",
+                    mainConfigFile: "js/config/requirejs.config.js",
                     name: "init",
                     out: "distr/js/main.build.js",
                     preserveLicenseComments: false
