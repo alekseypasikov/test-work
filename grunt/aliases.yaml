@@ -1,0 +1,14 @@
+default:
+ description: 'Сборка по умолчанию (продакшн)'
+ tasks:
+  - prod
+dev:
+ description: 'Сборка для разработки'
+ tasks:
+  - 'concurrent:devFirst'
+  - 'concurrent:devSecond'
+prod:
+ description: 'Сборка продакшна'
+ tasks:
+  - 'concurrent:prodFirst'
+  - 'concurrent:prodSecond'
