@@ -26,8 +26,42 @@
         </hgroup>
     </header>
     <div class="сontent">
-        <section class="article">
-            <img id="article__picture" src="" alt="">
+        <section class="add-cart">
+            <h4 class="add-cart__title">Customize Your Item:</h4>
+            <form class="add-cart__form" action="#" method="post">
+                <fieldset class="add-cart__form_select">
+                    <select class="add-cart__form_select_item">
+                        <option>Customization 1</option>
+                        <option>Customization 2</option>
+                        <option>Customization 3</option>
+                    </select>
+                    <select class="add-cart__form_select_item">
+                        <option>Customization 1</option>
+                        <option>Customization 2</option>
+                        <option>Customization 3</option>
+                    </select>
+                    <select class="add-cart__form_select_item">
+                        <option>Customization 1</option>
+                        <option>Customization 2</option>
+                        <option>Customization 3</option>
+                    </select>
+                </fieldset>
+                <fieldset class="add-cart__form_radio">
+                    <input type="radio" name="add-cart__form_radio" id="add-cart__form_radio_1">
+                    <label for="add-cart__form_radio_1">Single Cut</label><br>
+                    <input type="radio" name="add-cart__form_radio" id="add-cart__form_radio_2">
+                    <label for="add-cart__form_radio_2">Double Cut</label>
+                </fieldset>
+                <fieldset class="add-cart__form_count">
+                    <button>-</button>
+                    <input type="text" value="1">
+                    <button>+</button>
+                </fieldset>
+                <span class="add-cart__form_total"><strong>Total: $38.80</strong> <small>0.46/lb</small><small>(est)</small></span>
+                <fieldset class="add-cart__btn_group">
+                    <button class="add-cart__btn">Add to Cart</button>
+                </fieldset>
+            </form>
         </section>
     </div>
 </main>
